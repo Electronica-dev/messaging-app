@@ -1,0 +1,64 @@
+/* .customer-channel {
+  width: 30%;
+  margin: auto;
+} */
+.customer-channel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.customer-channel .no-content-message {
+  color: #cccccc;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.customer-channel .messages-panel {
+  width: calc(100%);
+  border: 1px solid rgb(224, 224, 224);
+  margin: 10px;
+  height: calc(100% - 22px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.customer-channel .messages-panel .meesages-list {
+  align-self: stretch;
+  height: 100%;
+}
+.customer-channel .messages-panel .messages-input {
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid rgb(224, 224, 224);
+  background-color: #f0f0f0;
+  display: flex;
+}
+.customer-channel .messages-panel .messages-input input {
+  margin: auto;
+  height: 20px;
+  width: 100%;
+  margin-left: 15px;
+  border-radius: 15px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.customer-channel .messages-panel .messages-input input:focus {
+  border-radius: 15px;
+  border: 2px solid #66a6ff;
+  outline: none;
+}
+.customer-channel .messages-panel .messages-input button {
+  width: 60px;
+  margin: auto 10px;
+  background-color: #0e62da;
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px 13px;
+}
+.customer-channel .messages-panel .messages-input button:hover {
+  cursor: pointer;
+  background-color: #66a6ff;
+}
