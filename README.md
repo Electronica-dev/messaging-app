@@ -1,5 +1,5 @@
 # Messaging application
-A simple messaging app as part of the internship project at Branch International. Navigate to the directories for specific installation.
+A simple messaging app with real time functionalities implemented using Socket.IO. Navigate to the directories for specific installation.
 
 ## Tech-stack used for frontend:
 - React.js
